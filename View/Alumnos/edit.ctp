@@ -9,7 +9,7 @@
 		echo $this->Form->input('segundo_apellido');
 		echo $this->Form->input('email');
 		echo $this->Form->input('telefono');
-		echo $this->Form->input('Foco');
+		echo $this->Form->input('Foco', array('multiple' => 'checkbox'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>

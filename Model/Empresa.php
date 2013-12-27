@@ -6,6 +6,9 @@ App::uses('AppModel', 'Model');
  * @property Oferta $Oferta
  */
 class Empresa extends AppModel {
+
+   public $displayField = 'nombre_social';
+
 /**
  * Validation rules
  *

@@ -30,7 +30,7 @@ foreach ($paths as $path) {
 
 if (!$found && function_exists('ini_set')) {
 	$root = dirname(dirname(dirname(__FILE__)));
-	ini_set('include_path',  $ds . 'opt' . $ds . 'cakes' . $ds . '2.0' . $ds . 'lib' . PATH_SEPARATOR . ini_get('include_path'));
+	ini_set('include_path',  $ds . 'home' . $ds . 'elias' . $ds . 'programas' . $ds . 'cakephp' . $ds . 'lib' . PATH_SEPARATOR . ini_get('include_path'));
 }
 
 if (!include($dispatcher)) {

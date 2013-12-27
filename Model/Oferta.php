@@ -7,6 +7,9 @@ App::uses('AppModel', 'Model');
  * @property Foco $Foco
  */
 class Oferta extends AppModel {
+
+   public $displayField = 'titulo';
+
 /**
  * Validation rules
  *
