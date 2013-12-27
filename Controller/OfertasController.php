@@ -108,7 +108,7 @@ class OfertasController extends AppController {
     			'conditions' => array('activa' => '1'),
     			'order' => array('Oferta.created DESC'),
     			'limit' => 5 ));
-		debug($ofertas);
+		//debug($ofertas);
 		$this->set('ofertas', $ofertas);
 	}
 
